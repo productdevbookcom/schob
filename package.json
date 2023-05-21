@@ -1,19 +1,30 @@
 {
-  "name": "ts-bundle-template",
-  "version": "0.0.0",
+  "name": "schob",
+  "version": "1.0.0",
   "packageManager": "pnpm@8.0.0",
-  "description": "add description",
-  "author": "add author",
+  "description": "Rewrite the new object according to the schema. Delete the excess.",
+  "author": "Mehmet - productdevbook <hi@productdevbook.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/productdevbook",
-  "homepage": "https://github.com/productdevbookcom/ts-bundle-template",
+  "homepage": "https://github.com/productdevbookcom/schob",
   "repository": {
     "type": "git",
-    "url": "https://github.com/productdevbookcom/ts-bundle-template.git"
+    "url": "https://github.com/productdevbookcom/schob.git"
   },
-  "bugs": "https://github.com/productdevbookcom/ts-bundle-template/issues",
+  "bugs": "https://github.com/productdevbookcom/schob/issues",
   "keywords": [
-    "add keywords"
+    "schema",
+    "object",
+    "json",
+    "json-schema",
+    "schema-object-merge",
+    "schema-object",
+    "schema-merge",
+    "schema-merge-object",
+    "schema-merge-json",
+    "schema-merge-json-schema",
+    "default object",
+    "default json"
   ],
   "exports": {
     ".": {
@@ -42,8 +53,15 @@
     "test": "vitest",
     "test:watch": "vitest --watch"
   },
+  "dependencies": {
+    "filter-anything": "^3.0.6",
+    "is-what": "^4.1.10",
+    "merge-anything": "^5.1.6",
+    "remove-anything": "^1.0.4"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",
+    "@types/lodash": "^4.14.194",
     "@vitest/coverage-c8": "^0.31.0",
     "bumpp": "^9.1.0",
     "eslint": "^8.40.0",
