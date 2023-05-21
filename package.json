@@ -1,6 +1,6 @@
 {
   "name": "schob",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packageManager": "pnpm@8.0.0",
   "description": "Rewrite the new object according to the schema. Delete the excess.",
   "author": "Mehmet - productdevbook <hi@productdevbook.com>",
