@@ -6,13 +6,13 @@
 ## Installation
 
 ```bash
-pnpm add @huntersofbook/schob
+pnpm add schob
 ```
 
 ## Usage
 
 ```ts
-import { merge } from '@huntersofbook/schob'
+import { merge } from 'schob'
 
 const schema = {
   isPro: false,
