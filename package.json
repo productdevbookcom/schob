@@ -55,20 +55,20 @@
   },
   "dependencies": {
     "filter-anything": "^3.0.7",
-    "is-what": "^4.1.15",
+    "is-what": "^4.1.16",
     "merge-anything": "^5.1.7",
     "remove-anything": "^1.0.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.7",
-    "@types/lodash": "^4.14.195",
+    "@antfu/eslint-config": "^0.43.1",
+    "@types/lodash": "^4.17.11",
     "@vitest/coverage-c8": "^0.33.0",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.44.0",
+    "bumpp": "^9.7.1",
+    "eslint": "^8.57.1",
     "tsup": "^6.7.0",
-    "typescript": "^5.1.6",
+    "typescript": "^5.6.3",
     "vite": "^4.4.2",
-    "vitest": "^0.33.0"
+    "vitest": "^0.34.6"
   },
   "publishConfig": {
     "access": "public"
