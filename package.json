@@ -54,19 +54,19 @@
     "test:watch": "vitest --watch"
   },
   "dependencies": {
-    "filter-anything": "^3.0.7",
-    "is-what": "^4.1.15",
-    "merge-anything": "^5.1.7",
-    "remove-anything": "^1.0.5"
+    "filter-anything": "^4.0.3",
+    "is-what": "^5.5.0",
+    "merge-anything": "^6.0.6",
+    "remove-anything": "^2.1.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.7",
+    "@antfu/eslint-config": "^9.5.1",
     "@types/lodash": "^4.14.195",
     "@vitest/coverage-c8": "^0.33.0",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.44.0",
-    "tsup": "^6.7.0",
-    "typescript": "^5.1.6",
+    "bumpp": "^12.3.0",
+    "eslint": "^10.10.0",
+    "tsup": "^8.5.1",
+    "typescript": "^7.0.2",
     "vite": "^4.4.2",
     "vitest": "^0.33.0"
   },
